@@ -1,0 +1,49 @@
+/* colors: #9CB5B6(Green) #584E39(Brown) #EDE09C(Cream)*/
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Aladin',cursive, sans-serif;
+    color: #584E39;
+}
+.main-container{
+    max-width: 320px;
+    height: 568px;
+    background-color: #584E39;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.content-container{
+    background-color: #EDE09C;
+    border-radius: 5px;
+    width: 93%;
+    height: 96.5%; 
+    box-shadow: 0px 0px 5px #EDE09C;
+}
+.flex-centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.nav-div{
+    width: 90%;
+    margin: 0px auto;
+    height: 17%;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+.logo{
+    width: 25%;
+}
+.logo-img{
+    width: 100%;
+    margin: 0px auto;
+}
+i{
+    color: #584E39;
+}
+p{
+    padding: 0;
+    margin: 0;
+}

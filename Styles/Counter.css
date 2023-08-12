@@ -1,0 +1,42 @@
+.main-div{
+    height: 75%;
+}
+.text-container{
+    height: 50%;
+}
+.text-content-container{
+    height: 90%;
+    width: 90%;
+    border: 1.5px solid #584E39;
+
+    padding: 10px 0;
+}
+.dua-content{
+    text-align: center;
+    font-size: 36px;
+    height: 100%;
+    overflow-y: scroll; /*Adds the ability to scroll*/
+    -ms-overflow-style: none; /*Hides scrollbar for IE and edge*/
+    scrollbar-width: none;/*Hides scrollbar for firefox*/
+}
+.dua-content::-webkit-scrollbar{/*For chrome to hide scrollbar*/
+    display: none;
+}
+.counter{
+    height: 25%;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+.buttons-container-div{
+    height: 25%;
+    justify-content: space-evenly;
+}
+.button{
+    width: 28.5%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: #9CB5B6;
+}
+p{
+    font-size: 36px;
+}

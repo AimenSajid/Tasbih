@@ -1,0 +1,24 @@
+.main-div{
+    height: 80%; /*Should scroll after this while the rest of the content is hidden*/
+    box-sizing: border-box;
+    padding: 10px 16px 5px 16px;
+    overflow-y: scroll; /*Adds teh ability to scroll*/
+    -ms-overflow-style: none; /*Hides scrollbar for IE and edge*/
+    scrollbar-width: none;/*Hides scrollbar for firefox*/
+    align-items: start;
+}
+.main-div::-webkit-scrollbar{/*For chrome to hide scrollbar*/
+    display: none;
+}
+.selections{
+    background-color: #9CB5B6;
+    height: 20%;
+    border-radius: 5px;
+    font-size: 28px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #584E39;
+}
